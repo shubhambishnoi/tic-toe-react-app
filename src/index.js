@@ -74,6 +74,7 @@ function Square(props){
     render() {
       return (
         <div className="game">
+          <h1 id="main-heading">Thanks for visiting !!</h1>
           <div className="game-board">
             <Board />
           </div>

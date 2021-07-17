@@ -43,11 +43,18 @@ body {
     background: #ddd;
   }
   
-  .game {
+  .game-board {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   
   .game-info {
     margin-left: 20px;
+  }
+
+  #main-heading{
+    margin:-100px 0px 50px 0px;
+    background-color:orange ;
   }
